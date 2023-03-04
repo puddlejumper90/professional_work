@@ -1,0 +1,94 @@
+/* CSS File for GitHub Pages */
+
+body {
+    font-family: 'Exo 2 Medium', sans-serif;
+    background-color: #282634;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Exo 2 Medium', sans-serif;
+    color: #ff4057;
+}
+
+p {
+    font-family: 'Roboto Light', sans-serif;
+    color: #DCDCDC;
+}
+
+a {
+    color: #ff4057;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DCDCDC;
+}
+
+button,
+input[type="submit"] {
+    font-family: 'Exo 2 Medium', sans-serif;
+    background-color: #ff4057;
+    color: #DCDCDC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #DCDCDC;
+    color: #ff4057;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px;
+}
+
+.header-right .btn-signup {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.header-right .btn-login {
+    margin-bottom: 20px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    padding-right: 10px;
+    color: #DCDCDC;
+}
